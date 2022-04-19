@@ -1,0 +1,133 @@
+/*for tableau page only*/
+
+body {
+    background-color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.common {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    position: absolute;
+    color: white; 
+    left: 10px; 
+    top: -22px;
+}
+
+.pagelinks {
+    float: right;
+    position: absolute;
+    top: -12px;
+    right: 5px;
+}
+
+.header {
+    background-color: midnightblue;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 40px;
+}
+
+.main {
+    top: 50px;
+    left: 25px;
+    right: 25px;
+    bottom: 50px;
+}
+
+.tlcap {
+    background-color: #111111;
+    top: 46%;
+    left: 5px;
+    width: 49.5%;
+    height: 3%;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+}
+
+.trcap {
+    background-color: #111111;
+    /*background-size: 1vw;*/
+    top: 46%;
+    right: 5px;
+    width: 49.5%;
+    height: 3%;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+}
+
+.blcap {
+    background-color: #111111;
+    left: 5px;
+    bottom: 1%;
+    width: 49.5%;
+    height: 3%;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+}
+
+.brcap {
+    background-color: #111111;
+    /*background-size: 1vw;*/
+    right: 5px;
+    bottom: 1%; 
+    width: 49.5%;
+    height: 3%;
+    font-size: 1vw;
+    color: white;
+    text-align: center;
+}
+
+.topleft {
+    top: 1%;
+    left: 5px;
+    height: 45%;
+    width: 49.5%;
+}
+    
+.topright {
+    top: 1%;
+    right: 5px;
+    height: 45%;
+    width: 49.5%;
+}
+
+.bottomleft {
+    bottom: 4%;
+    left: 5px;
+    width: 49.5%;
+    height: 45%;
+}
+
+.bottomright {
+    bottom: 4%;
+    right: 5px;
+    width: 49.5%;
+    height: 45%;
+
+}
+
+.footer {
+    background-color: #555555;
+    height: 40px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+
+
+

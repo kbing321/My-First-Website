@@ -1,0 +1,52 @@
+/*for index and aboutme pages--overwrite 4 style attributes from styles.css on those pages*/
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: midnightblue;
+    /*text-decoration: underline;*/
+    text-shadow: 2px 2px 4px #444444;
+}
+ol {
+    color: #111111;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #444444;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
